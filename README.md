@@ -77,7 +77,7 @@ A oxMySql overlay for easier database handling
 - Reading into table
     ```lua
     -- playersDb:read(where, whereValue, cb) where = collumns target, whereValue = value to target in collumns, cb return arrya contain all whereValue data
-    -- playersDb:read("id", "Id number 1", function(result)
+    playersDb:read("id", "Id number 1", function(result)
         print(json.encode(result))
     end)
     ```
