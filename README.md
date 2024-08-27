@@ -61,8 +61,8 @@ A oxMySql overlay for easier database handling
       ["id"] = "Id changed",
       ["age"] = 3,
     }, 
-    print('playersDb:update callback()')
-)
+    print('playersDb:update callback')
+    )
     ```
 - Reading table
     ```lua
